@@ -24,6 +24,17 @@
 //       console.log(user.fullname,user.phone,user.address,
 //         users.demo(),users.address.city);
 
+// Object methods
+
+// Object.keys(variable name)
+
+// console.log(Object.keys(user))
+
+// console.log(Object.values(user))
+
+// console.log(Object.entries(user));
+
+
 const car={
     make: "mahindra",
     Model: "thar",
