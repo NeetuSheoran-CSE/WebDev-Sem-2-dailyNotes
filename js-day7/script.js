@@ -17,8 +17,7 @@
 // } 
 
  
-const content = document.querySelector
-("#content p");
+const content = document.querySelector("#content p");
 console.log(content);
 
 content.style.fontSize="40px"
