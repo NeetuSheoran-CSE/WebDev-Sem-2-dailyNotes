@@ -33,4 +33,13 @@
     document.getElementById("content").append(newpara);    
 
     const image=document.createElement("img");
-    
+
+    setInterval(() => {
+    let date = new Date();
+    console.log(date);
+
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+     document.getElementById("clock").textContent = `${hours}:${minutes}:${seconds}`;
+    }, 1000);
