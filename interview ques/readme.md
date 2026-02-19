@@ -22,6 +22,8 @@
 //11. object methods diff b/w object.freeze() and object.seal()
 //12. what is dom
 //13. diff b/w queryselector and queryselectorall
+//why asynchronous type of fn is important in code
+//*****callback in async fn********
 
 # ffggc
 ## tkdgcvc
