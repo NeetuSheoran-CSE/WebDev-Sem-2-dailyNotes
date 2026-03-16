@@ -23,7 +23,7 @@
 //12. what is dom
 //13. diff b/w queryselector and queryselectorall
 //why asynchronous type of fn is important in code
-//*****callback in async fn********
+//*****callback in async fn********callbck hell
 
 # ffggc
 ## tkdgcvc

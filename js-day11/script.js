@@ -45,32 +45,34 @@
 // console.log
 
 
-console.log("starting script.js");
-function login(email,pass,cb){
-    setTimeout(()=>{
-        cb({username:email, islogged:true,message:"login successful"});
-    },2000)
-}
+// console.log("starting script.js");
+// function login(email,pass,cb){
+//     setTimeout(()=>{
+//         cb({username:email, islogged:true,message:"login successful"});
+//     },2000)
+// }
 
-function getVideoList(cb){
-    setTimeout(()=>{
-        cb({videos:["video1","video2","video3"]});
-    },2000)
-}
-function getVideoDetails(video,cb){
-    setTimeout(()=>{
-        cb({videoTitle:video,videoduration:"2 min"});
-    },2000)
-}
-login("john@example.com", "password123", (data) => {
-    console.log(data);
+// function getVideoList(cb){
+//     setTimeout(()=>{
+//         cb({videos:["video1","video2","video3"]});
+//     },2000)
+// }
+// function getVideoDetails(video,cb){
+//     setTimeout(()=>{
+//         cb({videoTitle:video,videoduration:"2 min"});
+//     },2000)
+// }
+// login("john@example.com", "password123", (data) => {
+//     console.log(data);
 
-getVideoList((videos) => {
-    console.log(videos);
-    getVideoDetails(videos.videos[0], (videodetails) => {
-        console.log(videodetails);
-     });
-  });
-});
-console.log("ending script.js");
+// getVideoList((videos) => {
+//     console.log(videos);
+//     getVideoDetails(videos.videos[0], (videodetails) => {
+//         console.log(videodetails);
+//      });
+//   });
+// });
+// console.log("ending script.js");
+
+
 
